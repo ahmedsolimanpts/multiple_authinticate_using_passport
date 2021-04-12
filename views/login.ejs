@@ -1,0 +1,49 @@
+<!-- fa pls -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+<!-- animate.css -->
+<link href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/67239/animate.min.css" rel="stylesheet" />
+
+<!-- under overlay stuff -->
+<div class="body"></div>
+
+<!-- the panel -->
+<div class="overlay">
+  <div class="ui-panel login-panel animated bounceInDown">
+    <header>
+      <div class="left logo">
+        <a href="#logo"><span>Banana</span>plate</a>
+      </div>
+      
+      <div class="right">
+        <a href="#close" id="close" class="ui-button close">
+          x
+        </a>
+      </div>
+    </header>
+    
+    <div class="login-form">
+      <form action="/login" method="post">
+      <div class="subtitle">Login or register</div>
+      <input type="email" placeholder="E-mail" name="email"/>
+      <input type="password" placeholder="Password" name="password"/>
+    </div>
+    <button type="submit">Login</button>
+  </form>
+    <footer>
+      <div class="left social-login">
+        Login with 
+        <a href="/auth/facebook"><i class="fa fa-fw fa-facebook"></i></a>
+        
+        <a href="/google"><i class="fa fa-fw fa-google-plus"></i></a>
+      </div>
+      <div class="right form-actions"> 
+        <a href="/signup" class="ui-button inactive register">Register</a>
+      </div>
+    </footer>
+  
+  </div>
+</div>
+
+
+
